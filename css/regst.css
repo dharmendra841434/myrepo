@@ -1,0 +1,93 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#menu
+{
+    width: 100%;
+    display: flex;
+    -webkit-box-shadow: -1px 4px 4px 3px #B2B2B2; 
+    box-shadow: -1px 4px 4px 3px #B2B2B2;
+    height: 100%;
+    background-color: rgb(245, 145, 13);
+    clear: both;
+}
+#menu ul
+{
+    background-color:white;
+    padding: 20px;
+    width:240px;
+    height: 620px;
+
+
+}
+#menu ul li {
+
+    list-style: none;
+    background-color:white;
+    height: 40px;
+    font-size: 20px;
+    margin-top: 10px;
+   margin-left: 10px;
+   padding-left: 10px;
+   padding-top: 10px;
+   border-radius: 3px;
+    -webkit-box-shadow: -1px 4px 4px 3px #B2B2B2; 
+    box-shadow: -1px 4px 4px 3px #B2B2B2;
+
+}
+#t.active a{
+
+    color: darkblue;
+    font-weight: bold;
+}
+
+
+h3{
+
+    color: rgb(10, 231, 10);
+
+}
+
+#menu ul li :hover{
+
+    list-style: none;
+    height: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    color: darkblue;
+
+}
+#menu ul li a
+{
+   text-decoration: none;
+   color: rgb(10, 231, 10);
+   height: 40px;
+   
+
+}
+#d{
+    margin-top: 15px;
+    
+}
+#border{
+
+    height: 640px;
+    width: 1040px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 3px;
+    border: 2px solid rgb(3, 219, 14);
+
+}
+#mytable{
+
+    height: 400px;
+    width: 600px;
+    padding: 0px;
+    margin: 0px;
+    outline: black;
+
+    border: 3px solid red;
+}
+

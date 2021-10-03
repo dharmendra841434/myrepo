@@ -1,0 +1,148 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#menu
+{
+    width: 100%;
+    display: flex;
+    -webkit-box-shadow: -1px 4px 4px 3px #B2B2B2; 
+    box-shadow: -1px 4px 4px 3px #B2B2B2;
+    height: 100%;
+    background-color: rgb(245, 142, 7);
+    clear: both;
+}
+#menu ul
+{
+    background-color:white;
+    padding: 20px;
+    width:240px;
+    height: 620px;
+
+
+}
+#menu ul li {
+
+    list-style: none;
+    background-color:white;
+    height: 40px;
+    font-size: 20px;
+    margin-top: 10px;
+   margin-left: 10px;
+   padding-left: 10px;
+   padding-top: 10px;
+   border-radius: 3px;
+    -webkit-box-shadow: -1px 4px 4px 3px #B2B2B2; 
+    box-shadow: -1px 4px 4px 3px #B2B2B2;
+
+}
+h3{
+
+    color: rgb(10, 231, 10);
+
+}
+
+#menu ul li :hover{
+
+    list-style: none;
+    height: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    color: darkblue;
+
+}
+#menu ul li a
+{
+   text-decoration: none;
+   color: rgb(10, 231, 10);
+   height: 40px;
+   
+
+}
+#d{
+    margin-top: 15px;
+}
+#d.active a{
+
+    color: darkblue;
+    font-weight: bold;
+}
+#border{
+
+    height: 640px;
+    width: 1060px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 3px;
+    border: 2px solid green;
+
+}
+#inputfield{
+
+background-color: white;
+width: 400px;
+height: 450px;
+margin-top: 80px;
+margin-left: 300px;
+    border-radius: 5px;
+
+}
+#add{
+
+    margin-top: 50px;
+    margin-left: 50px;
+    
+}
+h2{
+
+    margin-left: 40px;
+    padding-top: 20px;
+}
+#pname {
+    margin-top: 10px;
+    height: 40px;
+    width: 300px;
+    -webkit-box-shadow: -1px 4px 4px 3px #B2B2B2; 
+    box-shadow: -1px 4px 4px 3px #B2B2B2;
+}
+#canid {
+    margin-top: 10px;
+    height: 40px;
+    width: 300px;
+    -webkit-box-shadow: -1px 4px 4px 3px #B2B2B2; 
+    box-shadow: -1px 4px 4px 3px #B2B2B2;
+}
+#canemail {
+    margin-top: 10px;
+    height: 40px;
+    width: 300px;
+    -webkit-box-shadow: -1px 4px 4px 3px #B2B2B2; 
+    box-shadow: -1px 4px 4px 3px #B2B2B2;
+}
+#name{
+    margin-top: 30px;
+    height: 40px;
+    width: 300px;
+    -webkit-box-shadow: -1px 4px 4px 3px #B2B2B2; 
+    box-shadow: -1px 4px 4px 3px #B2B2B2;
+}
+#submit{
+    margin-top: 10px;
+    height: 40px;
+    width: 300px;
+    background-color: rgb(31, 4, 107);
+    color: white;
+    font-weight: bold;
+
+
+}
+input[type=text] {
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+  }
+input[type=text]:focus {
+    border: 3px solid rgb(2, 190, 12);
+  }

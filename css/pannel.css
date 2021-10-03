@@ -1,0 +1,210 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#menu
+{
+    width: 100%;
+    display: flex;
+    -webkit-box-shadow: -1px 4px 4px 3px #B2B2B2; 
+    box-shadow: -1px 4px 4px 3px #B2B2B2;
+    height: 100%;
+    background-color: rgb(245, 145, 13);
+    clear: both;
+}
+#menu ul
+{
+    background-color:white;
+    padding: 20px;
+    width:240px;
+    height: 620px;
+
+
+}
+#menu ul li {
+
+    list-style: none;
+    background-color:white;
+    height: 40px;
+    font-size: 20px;
+    margin-top: 10px;
+   margin-left: 10px;
+   padding-left: 10px;
+   padding-top: 10px;
+   border-radius: 3px;
+    -webkit-box-shadow: -1px 4px 4px 3px #B2B2B2; 
+    box-shadow: -1px 4px 4px 3px #B2B2B2;
+
+}
+#totalst
+{
+
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+    margin-top: 50px;
+    width: 200px;
+    -webkit-box-shadow: -1px 4px 4px 3px #b35203; 
+    box-shadow: -1px 4px 4px 3px #b35203;
+}
+#totalst img{
+
+    height: 130px;
+    width: 150px;
+    margin-left: 20px;
+
+}
+#totalcan
+{
+
+    height: 200px;
+    margin-left: 200px;
+    margin-top: 50px;
+    width: 200px;
+    flex: right;
+    -webkit-box-shadow: -1px 4px 4px 3px #b35203; 
+    box-shadow: -1px 4px 4px 3px #b35203;
+}
+#totalcan img{
+
+    height: 130px;
+    width: 150px;
+    margin-left: 20px;
+
+}
+#totalcan h4
+{
+
+    margin-top: 20px;
+    font-size: 19px;
+    margin-left: 25px;
+}
+
+#totalst h4
+{
+
+    margin-top: 20px;
+    font-size: 19px;
+
+}
+#totaldonevotes
+{
+
+    height: 200px;
+
+    margin-left: 200px;
+    margin-top: 50px;
+    width: 200px;
+    -webkit-box-shadow: -1px 4px 4px 3px #b35203; 
+    box-shadow: -1px 4px 4px 3px #b35203;
+}
+#totaldonevotes img{
+
+    height: 130px;
+    width: 150px;
+    margin-left: 20px;
+
+}
+#remainvotes
+{
+
+    height: 200px;
+    margin-left: 200px;
+    margin-top: 50px;
+    width: 200px;
+    flex: right;
+    -webkit-box-shadow: -1px 4px 4px 3px #b35203; 
+    box-shadow: -1px 4px 4px 3px #b35203;
+}
+#f.active a{
+
+    color: darkblue;
+    font-weight: bold;
+}
+#remainvotes img{
+
+    height: 130px;
+    width: 150px;
+    margin-left: 20px;
+
+}
+#remainvotes h4
+{
+
+    margin-top: 20px;
+    font-size: 19px;
+    margin-left: 25px;
+}
+
+#totaldonevotes h4
+{
+
+    margin-top: 20px;
+    font-size: 19px;
+    margin-left: 20px;
+
+}
+
+h3{
+
+    color: rgb(10, 231, 10);
+
+}
+
+#menu ul li :hover{
+
+    list-style: none;
+    height: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    color: darkblue;
+
+}
+#menu ul li a
+{
+   text-decoration: none;
+   color: rgb(10, 231, 10);
+   height: 40px;
+   
+
+}
+#d{
+    margin-top: 15px;
+    
+}
+#border{
+
+    height: 640px;
+    width: 1040px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 3px;
+    border: 2px solid rgb(3, 219, 14);
+
+}
+#top
+{
+
+    width: 1000px;
+    height: 320px;
+    display: flex;
+    clear: both;
+    margin-left:30px;
+
+}
+#buttom
+{
+    width: 1000px;
+    height: 300px;
+    display: flex;
+    clear: both;
+    margin-left: 30px;
+}
+h6{
+
+    margin-top: 180px;
+    color: #170458;
+
+}
+
